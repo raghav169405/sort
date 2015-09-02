@@ -1,5 +1,5 @@
 template <class T>
-void bubblesort(T a[], size_t size) {
+void bubblesor(T a[], size_t size) {
   for (size_t i = size; i > 0; i--) 
     for (size_t j = 0; j < i-1; j++)
       if (a[j] > a[j+1]) {
